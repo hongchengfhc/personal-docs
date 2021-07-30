@@ -8,6 +8,14 @@ const sidebarCSS = () => {
         ["三角形生成器", "三角形生成器"],
         ["小于12px的文字生成器", "小于 12px 的文字生成器"]
       ]
+    },
+    {
+      title: '属性',
+      collapsable: false,
+      children: [
+        { title: "滤镜 filter", path: "滤镜filter" },
+        // { title: "flexbox", path: "flexbox" },
+      ]
     }
   ]
 }
