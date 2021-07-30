@@ -5,9 +5,8 @@ const sidebarCSS = () => {
       title: '工具',
       collapsable: false,
       children: [
-        {
-          title: "小于 12px 的文字生成器", path: '小于12px的文字生成器'
-        }
+        ["三角形生成器", "三角形生成器"],
+        ["小于12px的文字生成器", "小于 12px 的文字生成器"]
       ]
     }
   ]
@@ -20,7 +19,9 @@ const sidebarJS = () => {
       collapsable: false,
       children: [
         ["解决移动端300ms延迟点击的问题", '解决移动端300ms延迟点击的问题'],
-        "使用apng动画的两种方式"
+        "使用apng动画的两种方式",
+        "MessageChannel",
+        "MutationObserver"
       ]
     }
   ]
