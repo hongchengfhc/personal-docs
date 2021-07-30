@@ -1,0 +1,33 @@
+{
+  "name": "demo-vuepress",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.xindong.com:xd-website/docs/demo-vuepress.git"
+  },
+  "workspaces": [
+    "docs/.vuepress/theme"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "clipboard": "^2.0.4"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "lerna": "^4.0.0",
+    "vuepress": "1.0.0",
+    "vuepress-plugin-flexsearch-pro": "^1.0.3",
+    "vuepress-plugin-element-ui": "^1.1.0",
+    "vuepress-plugin-go-top": "^1.0.0",
+    "vuepress-plugin-reading-progress": "^1.0.9"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "packages": [
+    "docs/.vuepress/theme"
+  ],
+  "version": "independent",
+  "useWorkspaces": true,
+  "npmClient": "yarn"
+}
