@@ -117,7 +117,7 @@ export default {
   mounted () {
 
     // 处理首页设置背景图片后
-    if (this.$refs.home) {
+    if (this.$refs.home && this.$refs.home.$el) {
       const backgroundImage = getComputedStyle(this.$refs.home.$el, null)['backgroundImage']
       if (this.$route.path !== '/') {
         this.$refs.home.$el.style['backgroundImage'] = 'unset'
