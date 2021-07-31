@@ -1,6 +1,7 @@
 
 const frontEnd = require('./front-end')
 const backEnd = require('./back-end')
+const tool = require('./tool')
 
 
 module.exports = {
@@ -34,7 +35,7 @@ module.exports = {
         {
           text: "前端笔记",
           items: [
-            { text: "前端进阶训练", link: "" }
+            { text: "前端进阶训练", link: "/front-end/note/函数式编程" }
           ]
         }
       ]
@@ -49,6 +50,10 @@ module.exports = {
       ]
     },
     {
+      text: "工具",
+      link: "/tool/安装iTerm2&&OnMyZsh"
+    },
+    {
       text: "生活"
     }
   ],
@@ -57,6 +62,7 @@ module.exports = {
     '/front-end/js/': frontEnd.js,
     '/front-end/vue/': frontEnd.vue,
     '/front-end/note/': frontEnd.note,
-    '/back-end/nodejs/': backEnd.nodejs
+    '/back-end/nodejs/': backEnd.nodejs,
+    '/tool/': tool.all
   }
 }

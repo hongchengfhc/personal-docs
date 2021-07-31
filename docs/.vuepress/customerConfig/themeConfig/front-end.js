@@ -65,7 +65,11 @@ const sidebarNote = () => {
     {
       title: '前端工程化实战',
       collapsable: false,
-      children: []
+      children: [
+        ["前端工程化概述", "前端工程化概述"],
+        ["前端脚手架工具", "前端脚手架工具"],
+        ["前端自动化构建", "前端自动化构建"]
+      ]
     },
     {
       title: 'Vue.js框架源码与进阶',

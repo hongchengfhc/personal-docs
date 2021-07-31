@@ -117,16 +117,18 @@ export default {
   mounted () {
 
     // 处理首页设置背景图片后
+
     if (this.$refs.home && this.$refs.home.$el) {
-      const backgroundImage = getComputedStyle(this.$refs.home.$el, null)['backgroundImage']
+      const refHomeEl = this.$refs.home.$el
+      const backgroundImage = getComputedStyle(refHomeEl, null)['backgroundImage']
       if (this.$route.path !== '/') {
-        this.$refs.home.$el.style['backgroundImage'] = 'unset'
+        refHomeEl.style['backgroundImage'] = 'unset'
       }
       this.$router.afterEach((to, from) => {
         if (to.path !== '/') {
-          this.$refs.home.$el.style['backgroundImage'] = 'unset'
+          refHomeEl.style['backgroundImage'] = 'unset'
         } else {
-          this.$refs.home.style['backgroundImage'] = backgroundImage
+          refHomeEl.style['backgroundImage'] = backgroundImage
         }
       })
     }
