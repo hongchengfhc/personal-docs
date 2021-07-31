@@ -16,6 +16,13 @@ const sidebarCSS = () => {
         { title: "滤镜 filter", path: "滤镜filter" },
         // { title: "flexbox", path: "flexbox" },
       ]
+    },
+    {
+      title: "动",
+      collapsable: false,
+      children: [
+        ["图片闪光", "图片闪光"]
+      ]
     }
   ]
 }
