@@ -60,7 +60,9 @@ export default {
           x.classList.remove('active')
         })
         const temp = document.querySelector(`.right-menu-item a[href="#${key}"]`)
-        temp.parentElement.classList.add('active')
+        if (temp && temp.parentElement) {
+          temp.parentElement.classList.add('active')
+        }
       }
     },
     onscroll: _throttle(function () {
