@@ -49,7 +49,9 @@ const sidebarVUE = () => {
       title: 'Vue响应式',
       collapsable: false,
       children: [
-        ["Vue响应式原理介绍", 'Vue响应式原理']
+        ["Vue响应式原理介绍", 'Vue响应式原理'],
+        ["VueRouter原理实现", "VueRouter原理实现"],
+        ["Vue虚拟DOM以及Diff算法", "Vue的Diff算法"]
       ]
     }
   ]
@@ -82,9 +84,7 @@ const sidebarNote = () => {
     {
       title: 'Vue.js框架源码与进阶',
       collapsable: false,
-      children: [
-
-      ]
+      children: []
     }
   ]
 }
