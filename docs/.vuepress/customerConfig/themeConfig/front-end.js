@@ -33,6 +33,7 @@ const sidebarJS = () => {
       title: '实用',
       collapsable: false,
       children: [
+        ["2021前端必读", "2021前端必读"],
         ["解决移动端300ms延迟点击的问题", '解决移动端300ms延迟点击的问题'],
         "使用apng动画的两种方式",
         "MessageChannel",
