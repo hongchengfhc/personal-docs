@@ -153,6 +153,10 @@ each(@codeLang, {
   }
 });
 
+div[class*="language-"]:before {
+  content: "text";
+}
+
 div[class~='language-javascript']:before {
   content: 'js';
 }
