@@ -39,6 +39,13 @@ const sidebarJS = () => {
         "MessageChannel",
         "MutationObserver"
       ]
+    },
+    {
+      title: '奇技淫巧',
+      collapsable: false,
+      children: [
+        ["小干货演示", "小干货演示"]
+      ]
     }
   ]
 }
