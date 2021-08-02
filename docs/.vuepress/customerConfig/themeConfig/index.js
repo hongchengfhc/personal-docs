@@ -28,7 +28,7 @@ module.exports = {
           text: "前端文章",
           items: [
             { text: "Vue", link: "/front-end/vue/Vue响应式原理介绍" },
-            { text: "JS", link: "/front-end/js/解决移动端300ms延迟点击的问题" },
+            { text: "JS", link: "/front-end/js/2021前端必读" },
             { text: "CSS", link: "/front-end/css/小于12px的文字生成器" }
           ]
         },

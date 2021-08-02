@@ -33,11 +33,19 @@ const sidebarJS = () => {
       title: '实用',
       collapsable: false,
       children: [
+        ["2021前端必读", "2021前端必读"],
         ["解决移动端300ms延迟点击的问题", '解决移动端300ms延迟点击的问题'],
         "使用apng动画的两种方式",
         "MessageChannel",
         "MutationObserver",
         ["npm-install原理分析", "npm-install原理分析"]
+      ]
+    },
+    {
+      title: '奇技淫巧',
+      collapsable: false,
+      children: [
+        ["小干货演示", "小干货演示"]
       ]
     }
   ]
@@ -49,7 +57,9 @@ const sidebarVUE = () => {
       title: 'Vue响应式',
       collapsable: false,
       children: [
-        ["Vue响应式原理介绍", 'Vue响应式原理']
+        ["Vue响应式原理介绍", 'Vue响应式原理'],
+        ["VueRouter原理实现", "VueRouter原理实现"],
+        ["Vue虚拟DOM以及Diff算法", "Vue的Diff算法"]
       ]
     }
   ]
@@ -82,9 +92,7 @@ const sidebarNote = () => {
     {
       title: 'Vue.js框架源码与进阶',
       collapsable: false,
-      children: [
-
-      ]
+      children: []
     }
   ]
 }
