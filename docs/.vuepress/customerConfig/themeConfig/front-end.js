@@ -37,8 +37,7 @@ const sidebarJS = () => {
         ["解决移动端300ms延迟点击的问题", '解决移动端300ms延迟点击的问题'],
         "使用apng动画的两种方式",
         "MessageChannel",
-        "MutationObserver",
-        ["npm-install原理分析", "npm-install原理分析"]
+        "MutationObserver"
       ]
     },
     {

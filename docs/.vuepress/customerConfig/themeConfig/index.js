@@ -56,7 +56,7 @@ module.exports = {
     },
     {
       text: "优秀博客",
-      link: "/blog/"
+      link: "/blog/npm-install原理分析"
     },
     {
       text: "生活"

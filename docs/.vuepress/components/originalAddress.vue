@@ -1,7 +1,7 @@
 <template>
   <div class="original-address-container">
     <p class="tips">{{ tips }}</p>
-    <a :src="link">
+    <a :href="link" target="_blank">
       <div class="left-icon">
         <img src="http://wx.qlogo.cn/mmhead/Q3auHgzwzM5qsXLW1dPyica6icaNFJZGDwTHCRuRRDO7x272vkmVnEWA/0" alt="">
       </div>
