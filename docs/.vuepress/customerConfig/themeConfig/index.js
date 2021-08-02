@@ -2,6 +2,7 @@
 const frontEnd = require('./front-end')
 const backEnd = require('./back-end')
 const tool = require('./tool')
+const blog = require('./blog')
 
 
 module.exports = {
@@ -54,6 +55,10 @@ module.exports = {
       link: "/tool/安装iTerm2&&OnMyZsh"
     },
     {
+      text: "优秀博客",
+      link: "/blog/"
+    },
+    {
       text: "生活"
     }
   ],
@@ -63,6 +68,7 @@ module.exports = {
     '/front-end/vue/': frontEnd.vue,
     '/front-end/note/': frontEnd.note,
     '/back-end/nodejs/': backEnd.nodejs,
-    '/tool/': tool.all
+    '/tool/': tool.all,
+    '/blog/': blog.all
   }
 }
