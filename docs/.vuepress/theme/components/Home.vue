@@ -12,7 +12,7 @@
           {{ data.tagline || $description || 'Welcome to your VuePress site' }}
         </p>
 
-        <a-button class="xd-action-btn" :type="actionBtn.type" :shape="actionBtn.shape" :size="actionBtn.size" :ghost="actionBtn.ghost" v-if="actionBtn">
+        <a-button class="pd-action-btn" :type="actionBtn.type" :shape="actionBtn.shape" :size="actionBtn.size" :ghost="actionBtn.ghost" v-if="actionBtn">
           <a v-if="isExtlink(actionBtn.link)" :href="link(actionBtn.link)" target="_blank">
             {{ actionBtn.text }}
           </a>
@@ -186,7 +186,7 @@ export default {
       color: #949494;
     }
 
-    .xd-action-btn {
+    .pd-action-btn {
       width: 240px;
       height: 60px;
       border-radius: 40px;
@@ -316,7 +316,7 @@ export default {
         margin: 2rem auto 1.2rem;
       }
     }
-    
+
     .features {
       flex-direction: column;
     }

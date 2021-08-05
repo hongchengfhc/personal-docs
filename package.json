@@ -1,5 +1,5 @@
 {
-  "name": "demo-vuepress",
+  "name": "personal-docs",
   "private": true,
   "version": "1.0.0",
   "description": "",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.xindong.com:xd-website/docs/demo-vuepress.git"
+    "url": "git@github.com:hongchengfhc/personal-docs.git"
   },
   "workspaces": [
     "docs/.vuepress/theme"
